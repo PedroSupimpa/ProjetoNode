@@ -10,7 +10,7 @@ import {
 import { v4 as uuid } from "uuid";
 import { User } from "./Users";
 
-@Entity("connection")
+@Entity("connections")
 class Connection {
   @PrimaryColumn()
   id: string;
